@@ -1,3 +1,7 @@
+/* eslint-disable eol-last */
+/* eslint-disable import/newline-after-import */
+/* eslint-disable strict */
+/* eslint-disable lines-around-directive */
 /* eslint-disable no-unused-vars */
 /* eslint-disable comma-dangle */
 'use strict';
