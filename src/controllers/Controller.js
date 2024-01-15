@@ -26,11 +26,12 @@ class Controller {
 
   async create(req, res) {
     const dados = req.body;
-
+    console.log(dados);
     try {
       const created = await this.service.create(dados);
       return res.status(201).json(created);
     } catch (error) {
+      console.log(error);
       return res.status(403).json({ mensagem: 'Ocorreu um erro ao cadastrar' });
     }
   }
